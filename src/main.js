@@ -1,3 +1,4 @@
+/*
 import './common/dotenv.js';
 import app from './app.js';
 import instance from './instance.js';
@@ -19,3 +20,6 @@ exitHook(() => {
     });
   });
 });
+*/
+
+console.log('The main.js file is currently commented out for testing purposes.');
