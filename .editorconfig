@@ -1,0 +1,28 @@
+root = true
+
+[*]
+end_of_line = lf
+indent_style = space
+indent_size = 2
+
+[*.{html,cshtml,css,js,ts,json,ejs,vue,razor,csj}]
+indent_style = space
+indent_size = 2
+quote_type = single
+trim_trailing_whitespace = true
+space-before-function-paren = true
+
+[*.{go,rs}]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+space-before-function-paren = true
+
+[*.cs]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+space-before-function-paren = true
+
+[*.md]
+trim_trailing_whitespace = false

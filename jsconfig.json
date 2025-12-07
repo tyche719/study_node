@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // 사용할 기본 라이브러리(lib.d.ts)를 지정합니다.
+    "target": "ES2022",
+    // 모듈 코드를 생성할 때 모듈 시스템을 지정합니다
+    // 상대적이지 않은 모듈 이름을 확인하기 위한 기본 디렉터리입니다.
+    "baseUrl": ".",
+    // baseUrl 옵션을 기준으로 계산할 경로 매핑을 지정합니다.
+    "paths": {
+      "*": ["packages/*"]
+    }
+  },
+  "exclude": ["bin", "dist", "etc", "node_modules"]
+}
